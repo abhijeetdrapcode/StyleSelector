@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Word Add-in</title>
+  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+  <script src="taskpane.js"></script>
+  <link rel="stylesheet" href="taskpane.css">
+</head>
+<body>
+  <div class="container">
+    <h3>Selected Paragraph/Number: </h3>
+    <h4 id="selectedNumber">Style Selector</h4>
+    
+    <input type="text" id="styleInput" placeholder="Enter style name">
+    <button id="logStyleContentButton">Log Style Content</button>
+    <button id="displayAllStylesButton">Display All Styles</button>
+    <button id="displayHeadingsWithNumberingButton">Display Headings with Numbering</button>
+    <button id="displayAllListsButton">Display All Lists</button>
+    <button id="getListInfoByStyleButton">Get List Info by Style</button>
+  </div>
+</body>
+</html>
